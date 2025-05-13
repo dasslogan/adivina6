@@ -1,0 +1,65 @@
+.admin-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: linear-gradient(145deg, #1a1a2e, #16213e);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+.admin-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+h1, h2 {
+    color: #e94584;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#riddleForm {
+    display: grid;
+    gap: 1rem;
+}
+
+textarea, input {
+    padding: 0.8rem;
+    border: 2px solid #e94584;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 1rem;
+}
+
+button {
+    background: #e94584;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#leaderboard {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.leaderboard-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+}

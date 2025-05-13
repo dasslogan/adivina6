@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanzas en Vivo</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>🎮 Adivina la Respuesta! 🧠</h1>
+            <div class="status-indicator" id="status">Conectando...</div>
+        </div>
+
+        <div class="riddle-box">
+            <div id="currentRiddle">Cargando adivinanza...</div>
+            <div class="answer-display" id="answerDisplay"></div>
+            <div class="timer-container">
+                <div id="timerBar"></div>
+            </div>
+        </div>
+
+        <div class="leaderboard">
+            <h2>🏆 Top Jugadores</h2>
+            <div id="liveLeaderboard"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

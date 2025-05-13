@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración - Juego de Adivinanzas</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Panel de Administración</h1>
+        
+        <div class="admin-section">
+            <h2>Nueva Adivinanza</h2>
+            <form id="riddleForm">
+                <textarea id="question" placeholder="Ingrese la adivinanza" required></textarea>
+                <input type="text" id="answer" placeholder="Respuesta correcta" required>
+                <button type="submit">Guardar Adivinanza</button>
+            </form>
+        </div>
+
+        <div class="admin-section">
+            <h2>Top 5 Jugadores</h2>
+            <div id="leaderboard"></div>
+        </div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
